@@ -1,0 +1,4 @@
+Terminar carta Gantt
+Modificar diagrama de Procesos
+- Casos de uso extendido, diagrama de secuencia sistema....
+
