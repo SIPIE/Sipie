@@ -6,3 +6,11 @@ login_login:
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+login_login_homepage:
+    pattern: /index
+    defaults: { _controller: LoginLoginBundle:Default:index}
+    
+login_login_login:
+    pattern: /login
+    defaults: { _controller: LoginLoginBundle:Default:login}
