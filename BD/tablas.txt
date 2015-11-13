@@ -1,0 +1,13 @@
+DROP TABLE profesional;
+DROP TABLE participante;
+
+CREATE TABLE profesional(rut varchar(20) PRIMARY KEY, pass varchar(20) NOT NULL, nombres varchar(120) NOT NULL, apellidos varchar(120) NOT NULL, telefono varchar(20) NOT NULL, email varchar(120) NOT NULL, direccion varchar(255) NOT NULL);
+
+CREATE TABLE participante(rut varchar(20) PRIMARY KEY, nombres varchar(120) NOT NULL, apellidos varchar(120) NOT NULL, telefono varchar(20) NOT NULL, email varchar(120) NOT NULL, direccion varchar(255) NOT NULL, sexo varchar(20) NOT NULL, tipo varchar(20) NOT NULL, fechanacimiento varchar(20) NOT NULL, lateralidad varchar(20) NOT NULL);
+
+###
+#agregar los siguiente profesionales como ejemplo
+###
+INSERT INTO profesional(rut,pass,nombres,apellidos,telefono,email,direccion) VALUES ("1","asd1","felipe andres","rosso del barrio","123456","felipe.rosso@alumnos.uach.cl","casa");
+INSERT INTO profesional(rut,pass,nombres,apellidos,telefono,email,direccion) VALUES ("2","asd2","felipe","...","123456","...","casa");
+INSERT INTO profesional(rut,pass,nombres,apellidos,telefono,email,direccion) VALUES ("3","asd3","alvaro","...","123456","...","casa");
