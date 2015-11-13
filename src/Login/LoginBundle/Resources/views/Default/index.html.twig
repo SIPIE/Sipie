@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sign in &middot; Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link href="{{asset('bundles/loginlogin/css/bootstrap.css')}}" rel="stylesheet">
+        <link href="{{asset('bundles/loginlogin/css/bootstrap-responsive.css')}}" rel="stylesheet">
+    </head>
+    
+    
+
+    <form class="form-inline" method="POST" action="{{path('login_login_login')}}">
+        <div class="form-group">
+            <label class="sr-only" for="exampleInputName2">Email address</label>
+            <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Usuario" name="username">
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="exampleInputPassword3">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password" name="password">
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"> Remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default">Sign in</button>
+    </form>
+        
+    {%if name is defined%}    
+    <div class="alert-info fade in">
+        <strong>{{name}}</strong>
+    </div>
+    {%endif%}
+    <body>
+        
+
+
+
+        <script src="{{asset('bundles/loginlogin/js/jquery.js')}}"></script>
+        <script src="{{asset('bundles/loginlogin/js/bootstrap.js')}}"></script>
+    </body>
+</html>
