@@ -1,0 +1,35 @@
+Minuta de reunión de avance
+
+-Reunión  del viernes 13 de noviembre.
+-Hora 10:50 -11:20.
+
+-Asistentes:
+	Felipe Oyarzun
+	Felipe Rosso
+	Cristian Rojas (Profesor)
+	José Luis Acuña (ayudante)
+
+-Objetivos de la reunión:
+	-Presentar el avance hecho ente el 6 y 13 de noviembre
+	-Evaluar  el avance realizado
+	-Fijar nuevos objetivos para el viernes 20.
+
+-Compromisos previos a la reunión:
+Entregar los documentos de análisis, diseño e implementar los módulos del programa 
+correspondientes a los modulos crear-editar paciente
+
+-Descripción del alcance logrado:
+Con relacion a la semana anterior, logramos implentar la opción de crear participantes.
+Creación de documentos (caso de uso) correspondiente a la función (crear participantes).
+
+
+-Compromisos para la siguiente reunión del 20 de Noviembre:
+Completar los 3 modulos completos con respecto a Usuarios y participantes (crear, editar y eliminar Usuario/participantes),
+implementado en una interfaz.
+
+- Completar el Login (Verificar si usuario esta registrado o no).
+
+-Justificación de inasistencias:
+Álvaro Arriagada no pudo asistir a esta reunión porque 
+tuvo que realzar un viaje a santiago a "La Jornada chilena de la 
+Computación" organizada por la escuela de informática (UACh).
