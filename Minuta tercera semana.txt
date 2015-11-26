@@ -1,0 +1,31 @@
+Minuta de reunión de avance
+
+-Reunión  del viernes 20 de noviembre.
+-Hora 10:50 -11:20.
+
+-Asistentes:
+	Alvaro Arriagada
+	Felipe Rosso
+	Cristian Rojas (Profesor)
+	José Luis Acuña (ayudante)
+
+-Objetivos de la reunión:
+	-Presentar el avance hecho ente el 6 y 20 de noviembre
+	-Evaluar  el avance realizado
+	-Fijar nuevos objetivos para el Viernes 27 de Noviembre
+
+-Compromisos previos a la reunión:
+Implementar los módulos de programa correspondientes al login,creación de Usuarios y creadio de Pacientes. 
+
+
+-Descripción del alcance logrado:
+Respecto a la semana anterior, logramos implementar la creación de Usuarios y Pacientes utilizando interfaz web, además de la validación del Login (Página de inicio). 
+
+-Compromisos para la siguiente reunión del 27 de Noviembre:
+
+Detalles de la implementación del software tales como: Validación de rut (Formato), id no necesita verse, Ocultar las contraseñas, Implementar el botón eliminar en la ventana principal, habilitar confirmación al eliminar.
+Hacer uso de combobox para algunas opciones, Fijar la componente para la fecha de Nacimiento, Terminar documentos de diseño, Hacer una primera previa de Formulario inicio de sesión.
+
+-Justificación de inasistencias:
+Felipe Oyarzún tuvo inasistencia debido a la recolección de algunos documentos faltantes para ser entregados en la DAE (Becas y creditos).
+
