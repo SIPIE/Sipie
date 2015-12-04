@@ -1,0 +1,31 @@
+Minuta de reunión de avance
+
+-Reunión  del viernes 27 de noviembre.
+-Hora 10:30 -11:20.
+
+-Asistentes:
+	Alvaro Arriagada
+	Felipe Rosso
+	Cristian Rojas (Profesor)
+	Raimundo Vega (Profesor)
+-Objetivos de la reunión:
+	-Presentar el avance hecho ente el 6 y 27 de noviembre
+	-Evaluar  el avance realizado
+	-Fijar nuevos objetivos para el Viernes 04 de Diciembre
+
+-Compromisos previos a la reunión:
+Implementar los módulos de programa correspondientes al login,creación de Usuarios y creadio de Pacientes, completar documentos de diseño. 
+
+
+-Descripción del alcance logrado:
+Respecto a la semana anterior, logramos avanzar los documentos de análisis y diseño, además de implementar algunas funcionalidades con respecto a la creación de usuarios
+y pacientes. 
+
+-Compromisos para la siguiente reunión del 27 de Noviembre:
+
+Detalles de la implementación del software tales como: Validación de rut (Formato), id no necesita verse, Ocultar las contraseñas, Implementar el botón eliminar en la ventana principal, habilitar confirmación al eliminar.
+Hacer uso de combobox para algunas opciones, Fijar la componente para la fecha de Nacimiento.
+Terminar documentos de diseño, Hacer una primera previa de formulario inicio de sesión.
+
+
+
