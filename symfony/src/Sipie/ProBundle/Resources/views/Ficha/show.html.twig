@@ -1,0 +1,24 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Ficha clinica</h1>
+
+    <table class="record_properties table">
+        <tbody>
+            <tr>
+				<th>Rut paciente</th>
+				<th>{{ entity.paciente.rut }}</th>
+			</tr>
+			<tr>
+				<th>Nombre paciente</th>
+				<th>{{ entity.paciente.nombres }} {{ entity.paciente.apellidos }}</th>
+            </tr>
+        </tbody>
+    </table>
+        <a class="btn btn-primary btn-lg" href="{{ path('ficha') }}" rold="button">
+            Volver a la lista
+        </a>
+        <a class="btn btn-primary btn-lg" href="{{ path('ficha_edit', { 'id': entity.id }) }}"  rold="button">
+            Editar
+        </a>
+{% endblock %}

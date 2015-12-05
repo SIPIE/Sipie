@@ -1,0 +1,15 @@
+sipie_pro_ficha:
+    resource: "@SipieProBundle/Resources/config/routing/ficha.yml"
+    prefix:   /ficha
+
+sipie_pro_usuario:
+    resource: "@SipieProBundle/Resources/config/routing/usuario.yml"
+    prefix:   /usuario
+
+sipie_pro_paciente:
+    resource: "@SipieProBundle/Resources/config/routing/paciente.yml"
+    prefix:   /paciente
+
+sipie_pro_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SipieProBundle:Default:index }

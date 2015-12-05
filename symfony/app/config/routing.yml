@@ -1,0 +1,23 @@
+sipie_pro:
+    resource: "@SipieProBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+sipie_pro_pruebas:	
+    pattern: /hello
+    defaults: { _controller: SipieProBundle:Default:index }
+
+
+login_login:
+    resource: "@LoginLoginBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+login_login_check:
+    path: /login_login_check
+
+logout:
+    pattern: /logout

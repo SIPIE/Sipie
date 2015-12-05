@@ -1,0 +1,8 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+{% form_theme edit_form 'bootstrap_3_layout.html.twig' %}
+    <h1>Editar ficha clinica</h1>
+
+    {{ form(edit_form) }}
+{% endblock %}

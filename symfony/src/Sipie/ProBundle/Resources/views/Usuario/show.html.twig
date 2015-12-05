@@ -1,0 +1,50 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Usuario</h1>
+
+    <table class="record_properties table">
+        <tbody>
+            <tr>
+                <th>Rut</th>
+                <td>{{ entity.rut }}</td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td>{{ entity.email }}</td>
+            </tr>
+            <tr>
+                <th>Activo</th>
+                <td>{{ entity.isActive }}</td>
+            </tr>
+            <tr>
+                <th>Nombres</th>
+                <td>{{ entity.nombres }}</td>
+            </tr>
+            <tr>
+                <th>Apellidos</th>
+                <td>{{ entity.apellidos }}</td>
+            </tr>
+            <tr>
+                <th>Teléfono</th>
+                <td>{{ entity.telefono }}</td>
+            </tr>
+            <tr>
+                <th>Dirección</th>
+                <td>{{ entity.direccion }}</td>
+            </tr>
+            <tr>
+                <th>Código mineduc</th>
+                <td>{{ entity.codigoMineduc }}</td>
+            </tr>
+        </tbody>
+    </table>
+        <a class="btn btn-primary btn-lg" href="{{ path('usuario') }}" rold="button">
+            Volver a la lista
+        </a>
+        <a class="btn btn-primary btn-lg" href="{{ path('usuario_edit', { 'id': entity.id }) }}"  rold="button">
+            Editar
+        </a>
+
+
+{% endblock %}

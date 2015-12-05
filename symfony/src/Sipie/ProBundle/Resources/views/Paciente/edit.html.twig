@@ -1,0 +1,40 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Editar Paciente</h1>
+	{{ form_start(edit_form) }}
+    	<div class="form-group">
+    		{{ form_row(edit_form.rut, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+    	<div class="form-group">
+    		{{ form_row(edit_form.nombres, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+    	<div class="form-group">
+    		{{ form_row(edit_form.apellidos, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+    	<div class="form-group">
+    		{{ form_row(edit_form.telefono, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+		<div class="form-group">
+    		{{ form_row(edit_form.email, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+		<div class="form-group">
+    		{{ form_row(edit_form.direccion, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+    	<div class="form-group">
+    		{{ form_row(edit_form.sexo, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+    	<div class="form-group">
+    		{{ form_row(edit_form.tipo, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+    	<div class="form-group">
+    		{{ form_row(edit_form.fechanac, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+    	<div class="form-group">
+    		{{ form_row(edit_form.lateralidad, {'attr': {'class': 'form-control'}}) }}
+    	</div>
+    	<div class="form-group">
+    		{{ form_widget(edit_form.submit, {'attr': {'class': 'btn btn-default'}}) }}
+    	</div>
+    {{ form_end(edit_form) }}
+{% endblock %}

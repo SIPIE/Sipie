@@ -1,0 +1,30 @@
+paciente:
+    path:     /
+    defaults: { _controller: "SipieProBundle:Paciente:index" }
+
+paciente_show:
+    path:     /{id}/show
+    defaults: { _controller: "SipieProBundle:Paciente:show" }
+
+paciente_new:
+    path:     /new
+    defaults: { _controller: "SipieProBundle:Paciente:new" }
+
+paciente_create:
+    path:     /create
+    defaults: { _controller: "SipieProBundle:Paciente:create" }
+    methods:  POST
+
+paciente_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "SipieProBundle:Paciente:edit" }
+
+paciente_update:
+    path:     /{id}/update
+    defaults: { _controller: "SipieProBundle:Paciente:update" }
+    methods:  [POST, PUT]
+
+paciente_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "SipieProBundle:Paciente:delete" }
+    methods:  [POST, DELETE]

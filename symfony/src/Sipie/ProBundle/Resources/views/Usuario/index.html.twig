@@ -1,0 +1,45 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Lista de usuarios<a class="btn btn-primary btn-lg" href="{{ path('usuario_new') }}" rold="button">Crear nuevo usuario</a></h1>
+
+    <table class="records_list table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Rut</th>
+                <th>E-mail</th>
+                <th>Activo</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Teléfono</th>
+                <th>Dirección</th>
+                <th>Código Mineduc</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td>{{ entity.rut }}</td>
+                <td>{{ entity.email }}</td>
+                <td>{{ entity.isActive }}</td>
+                <td>{{ entity.nombres }}</td>
+                <td>{{ entity.apellidos }}</td>
+                <td>{{ entity.telefono }}</td>
+                <td>{{ entity.direccion }}</td>
+                <td>{{ entity.codigoMineduc }}</td>
+                <td style="text-align: center; vertical-align: middle;">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a class="btn btn-default btn-xs" href="{{ path('usuario_show', { 'id': entity.id }) }}">mostrar</a>
+                    </li>
+                    <li>
+                        <a class="btn btn-default btn-xs" href="{{ path('usuario_edit', { 'id': entity.id }) }}">editar</a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endblock %}
