@@ -1,0 +1,20 @@
+Minuta de reunión de avance
+Reunión  del viernes 6 de noviembre 
+Hora 10:50 -11:20
+Asistentes:
+Felipe Oyarzun
+Felipe Rosso
+Cristian Rojas (Profesor)
+Jorge Rojas (ayudante)
+José Luis Acuña (ayudante)
+
+Objetivos de la reunión
+Presentar el primer avance  propuesto como objetivo de una reunión anterior, evaluar el avance hecho y  comprometer más objetivos para la siguiente semana.
+ Compromisos previos a la reunión.
+Entregar los documentos de análisis, diseño e implementar los  módulos del programa correspondiente parte de Crear/editar usuario  y una ventana de login.
+Descripción del alcance logrado
+Se pudo crear una tabla con usuarios   y se logro un  hacer una página de login  con los mismos usuarios con clave 
+Compromisos para la siguiente reunión
+Terminar  los módulos inconclusos para editar crear/usuarios, y además desarrollar el modulo agregar/editar alumnos a la base de datos.
+Inasistencias 
+Álvaro Arriagada no pudo asistir a esta reunión por motivos de fuerza mayor.
